@@ -49,7 +49,7 @@ export function AddInvoice() {
   return (
     <div className="max-w-2xl mx-auto">
       <h1 className="text-3xl font-bold text-gray-900 mb-8">Add New Invoice</h1>
-      
+
       {error && (
         <div className="mb-6 bg-red-50 border border-red-200 text-red-600 px-4 py-3 rounded-md">
           {error}
@@ -138,10 +138,10 @@ export function AddInvoice() {
                 >
                   {file ? 'Change Image' : 'Upload Invoice Image'}
                 </label>
-                <input 
-                  id="file-upload" 
-                  type="file" 
-                  className="sr-only" 
+                <input
+                  id="file-upload"
+                  type="file"
+                  className="sr-only"
                   accept="image/*"
                   onChange={handleFileChange}
                 />

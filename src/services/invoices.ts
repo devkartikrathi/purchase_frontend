@@ -16,7 +16,7 @@ export const addInvoice = async (data: InvoiceData) => {
       formData.append(key, value);
     }
   });
-  
+
   const response = await api.post('/invoices', formData, {
     headers: {
       'Content-Type': 'multipart/form-data',

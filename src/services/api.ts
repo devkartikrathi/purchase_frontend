@@ -1,5 +1,6 @@
 import axios from 'axios';
 
+// Set the base URL to your hosted backend
 const API_URL = 'https://purchase-tracker-uoup.onrender.com';
 
 const api = axios.create({
